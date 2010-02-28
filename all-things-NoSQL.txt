@@ -1,0 +1,30 @@
+The 3rd step of {No}SQL
+
+Everyone should remember the "old" adage of the 3 steps to a startup:
+
+  1. Idea
+  2. ???
+  3. Profit
+
+Those same 3 steps exist in all {No}SQL systems.  And yes, I use {No} because
+its the same 3 steps if you are using a RDBMS fronted by a SQL engine.
+
+  1. Data
+  2. ???
+  3. Store it in a B-Tree
+
+When you look at data storage systems they all look pretty much the same.  You
+take away all the servers, all the data manipulation language, the wire
+protocols and say, "how do I persist this data to peramanent storeage?".  The
+answer, overwhelmingly, is the classic B-Tree.
+
+- Knuth B-Tree.
+- Take a few of the NoSQL solutions, show the underlying storage
+- Take a few of the SQL solutions, show the underlying storage
+
+Tokyo Cabinet   - B-Tree is one of the items
+MongoDB         - B-Tree
+CouchDB         - B-Tree
+Riak            - riak_fs_backend - stores on disk filesystem, which is probably a b-tree
+Cassandra       - 
+

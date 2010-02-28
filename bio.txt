@@ -1,0 +1,9 @@
+Jeremy Hinegardner lives in Boulder, CO and has been programming Ruby since 2001. He
+deals with complex system issues and writes weird corner case gems such as heel,
+amalgalite, hitimes and a few others. Jeremy also contributes to the Fedora/EPEL
+community by packaging nginx, HAProxy, beanstalkd and a few other applications.
+
+He works for Collective Intellect managing the infrastructure and writing Ruby
+applications to move, munge, store and analyze social media data.  In his 
+copious free time plays at being a nature photographer.
+
