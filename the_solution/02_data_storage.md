@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE incremental bullets transition=toss
 
 # Part 1 - Message Storage System #
 
@@ -22,7 +22,9 @@
 
 # How we use Tyrants #
 
-* cluster them
+* cluster them (~250M keys / tyrant)
 * global keyspace (across all tyrants)
 * partition keys to individual tyrants
 * 'putkeep' storage
+* compressed values
+
