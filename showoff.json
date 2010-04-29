@@ -1,5 +1,7 @@
 [
-  { "section": "title"    },
-  { "section": "about_me" },
-  { "section": "tokyo_overview" }
+  { "section": "title"          },
+  { "section": "about_me"       },
+  { "section": "tokyo_overview" },
+  { "section": "the_problem"    },
+  { "section": "the_solution"   }
 ]
