@@ -19,6 +19,7 @@ Then you shold be able to go to [http://localhost:9090][] to view the presentati
 
 TODO
 ----
+- comparison of FS vs TC in bytes
 - comparisons of FS vs TC in $$ and #'s 
 - S3 cost vs local storage
 - shortcommings of all ruby drivers ( binary keys )

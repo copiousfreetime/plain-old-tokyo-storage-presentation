@@ -41,8 +41,7 @@
 * Memcache protocol
 * RESTful protocol
 
-!SLIDE incremental 
-
+!SLIDE incremental bullets
 # Lesser Known #
 
 * [Tokyo Dystopia](http://1978th.net/tokyodystopia/) -  A full-text search system 
