@@ -4,4 +4,4 @@
 
 ## The Virtues of Doing One-Thing-Well ##
 
-### by Jeremy Hinegadner ###
+### by Jeremy Hinegardner ###

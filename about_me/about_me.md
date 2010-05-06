@@ -4,7 +4,7 @@
 
 !SLIDE center
 
-# [http://github.com/copiousfreetime](http://gitnub.com/copiousfreetime) #
+## <http://github.com/copiousfreetime> ##
 
 !SLIDE center
 
