@@ -20,14 +20,14 @@
 
 !SLIDE
 
-## The Varnish Configuration Language is a small domain-specific language designed to be used to define request handling and document caching policies for the Varnish HTTP accelerator. ##
+## The Varnish Configuration Language is a small domain-specific language designed to be used to <em style="color: blue;">define request handling</em> and document caching policies for the Varnish HTTP accelerator. ##
 
 !SLIDE
 
 # What this really means ? #
 
 !SLIDE incremental bullets smaller
-# <em>define request handling</em> : Request comes in, where do I send it #
+# <em style="color:blue;">define request handling</em> : Request comes in, where do I send it #
 
 
     @@@ C
@@ -72,6 +72,7 @@
 ![get-flow/get-flow.png](get-flow/get-flow.png)
 
 !SLIDE center
+## PUT request ##
 ![put-flow/put-flow.png](put-flow/put-flow.png)
 
 !SLIDE command
