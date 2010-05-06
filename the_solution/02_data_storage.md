@@ -35,7 +35,7 @@
 <table width="100%" border="2" cellpadding="10" cellspacing="10">
   <tr><th></th><th style="padding: 10px;">Files</th><th style="padding: 10px;">Storage Used</th></tr>
   <tr>
-    <th style="padding: 10px;">Filesystem (4KiB blocksize)</th>
+    <th style="padding: 10px;">File system (4KiB blocksize)</th>
     <td style="padding: 10px; text-align: right;">250,000,000</td>
     <td style="padding: 10px; text-align: right;">954GiB</td>
   </tr>
@@ -76,7 +76,7 @@
     <th style="padding: 10px;">S3</th>
     <td style="padding: 10px; text-align: right;">$0</td>
     <td style="padding: 10px; text-align: right;">
-        <div align="center" style="font-size: nomal;">
+        <div align="center" style="font-size: normal;">
         <table>
             <tr>
                 <td>PUT</td>
@@ -96,7 +96,7 @@
             <tr>
                <th>Total</th>
                <td></td>
-               <td sytle="align: right; padding: 5px;">$24,420</td>
+               <td style="align: right; padding: 5px;">$24,420</td>
             </tr>
         </table>
         </div>
