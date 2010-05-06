@@ -3,5 +3,6 @@
   { "section": "about_me"       },
   { "section": "tokyo_overview" },
   { "section": "the_problem"    },
-  { "section": "the_solution"   }
+  { "section": "the_solution"   },
+  { "section": "the_end"        }
 ]

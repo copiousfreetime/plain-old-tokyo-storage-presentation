@@ -19,9 +19,7 @@ Then you shold be able to go to [http://localhost:9090][] to view the presentati
 
 TODO
 ----
-- reiterate the contact information
 - comparisons of FS vs TC in $$ and #'s 
 - S3 cost vs local storage
-- quick basic example of TC storage
-- shortcommings of all ruby drivers ( Binary keys )
+- shortcommings of all ruby drivers ( binary keys )
 

@@ -1,16 +1,15 @@
 !SLIDE center
-
 # Jeremy Hinegardner #
 
 !SLIDE center
-
-# [Collective Intellect](http://collectiveintellect.com/)
+# All Work 
+## [Collective Intellect](http://collectiveintellect.com/)
 
 !SLIDE center
-
+# No Play
 ## <http://github.com/copiousfreetime> ##
 
 !SLIDE center
-
-# [@copiousfreetime](http://twitter.com/copiousfreetime) #
+# Dull Boy
+## [@copiousfreetime](http://twitter.com/copiousfreetime) #
 

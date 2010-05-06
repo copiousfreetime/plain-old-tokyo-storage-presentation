@@ -2,6 +2,6 @@
 
 # Plain Old Tokyo Storage #
 
-## The Virtues of Doing One-Thing-Well ##
+## <em>(A story of using Tokyo {Cabinet|Tyrant})</em> ##
+### told to [Red Dirt Ruby Conference](http://reddirtrubyconf.com/) ###
 
-### by Jeremy Hinegardner ###
