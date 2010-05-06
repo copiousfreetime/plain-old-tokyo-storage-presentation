@@ -10,9 +10,10 @@ from this directory.
     $ cd plain-old-tokyo-storage-presentation
     $ showoff
 
-Then you shold be able to go to [http://localhost:9090][] to view the presentation
+Then you shold be able to go to <http://localhost:9090> to view the presentation
+
+Or just head to <http://plain-old-tokyo-storage.heroku.com>
 
 
 [Red Dirt Ruby Conference]: http://reddirtrubyconf.com/ "Red Dirt Ruby Conference"
 [ShowOff]: http://github.com/schacon/showoff
-[http://localhost:9090]: http://localhost:9090
