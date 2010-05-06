@@ -80,23 +80,23 @@
         <table>
             <tr>
                 <td>PUT</td>
-                <td style="align: right; padding: 5px;">$0.00001/req</td>
-                <td style="align: right; padding: 5px;">$22,000</td>
+                <td style="text-align: right; padding: 5px;">$0.00001/req</td>
+                <td style="text-align: right; padding: 5px;">$22,000</td>
             </tr>
             <tr>
                 <td>GET</td>
-                <td style="align: right; padding: 5px;">$0.1/GiB</td>
-                <td style="align: right; padding: 5px;">$220</td>
+                <td style="text-align: right; padding: 5px;">$0.1/GiB</td>
+                <td style="text-align: right; padding: 5px;">$220</td>
             </tr>
             <tr>
                <td>Storage</td>
-               <td style="align: right; padding: 5px;">$0.15/GB/Month</td>
-               <td style="align: right; padding: 5px;">$2,200</td>
+               <td style="text-align: right; padding: 5px;">$0.15/GB/Month</td>
+               <td style="text-align: right; padding: 5px;">$2,200</td>
             </tr>
             <tr>
                <th>Total</th>
                <td></td>
-               <td style="align: right; padding: 5px;">$24,420</td>
+               <td style="text-align: right; padding: 5px;">$24,420</td>
             </tr>
         </table>
         </div>
