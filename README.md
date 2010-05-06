@@ -5,10 +5,10 @@ This is my presentation for [Red Dirt Ruby Conference].  It is a [ShowOff][]
 presentation and in order to see it, you need to install showoff and then run it
 from this directory.
 
-  $ gem install showoff
-  $ git clone git://github.com/copiousfreetime/plain-old-tokyo-storage-presentation.git
-  $ cd plain-old-tokyo-storage-presentation
-  $ showoff
+   $ gem install showoff
+   $ git clone git://github.com/copiousfreetime/plain-old-tokyo-storage-presentation.git
+   $ cd plain-old-tokyo-storage-presentation
+   $ showoff
 
 Then you shold be able to go to [http://localhost:9090][] to view the presentation
 
