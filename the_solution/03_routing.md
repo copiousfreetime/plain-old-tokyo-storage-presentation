@@ -34,36 +34,47 @@
 !SLIDE smaller code 
 
     @@@ C
-    # now deal with the various Methods we support.  For GET and HEAD do the
-    # lookup and such as normal
+    # now deal with the various Methods we support.  
+    # GET and HEAD do the lookup and such as normal
     if ( req.request == "GET" || req.request == "HEAD" ) {
-        lookup;
+      lookup; # do cache lookup return from there if possible
     } else if ( req.request == "PUT" ) {
-        if ( req.url == "/health-check/503" ) {
-            error 503;
-        } else if ( req.url == "/health-check/200" ) {
-            error 200;
-        }
-        pass;
-    # For a PUT or PURGE we want the cache invalidated for that object.
-    } else if ( req.request == "PUT"  || req.request == "PURGE" )  {
-        purge( "req.url == " req.url );
-        if ( req.request == "PUT" ) { 
-            pass; 
-        } else {
-            error 200 "PURGE Success";
-        }
-    } else if ( req.restarts == 2 ) {
-        error 404 "Not Found, check old archive";
+       pass;
+    } else {
+       error 405 "Only GET, HEAD, PUT are supported in the Message Archive.";
     }
 
-!SLIDE 
+!SLIDE smaller code
 
-# Complex diagram showing VCL flow #
+    @@@ C
+    sub vcl_pass {
+        if ( ( req.request == "PUT" ) && 
+            !( req.http.X-Archive-Overwrite ~ "true" ) ) { 
+            set bereq.http.X-TT-PDMODE = "1";
+        }   
+        if ( req.restarts == 2 ) { 
+            error 542 "Failure to get to any backend";
+        }   
 
-!SLIDE
+        C{  
+            long mab = set_message_archive_backend( sp );
+            if ( mab > 0 ) { 
+                VRT_done( sp, VCL_RET_PASS);
+            } else {
+                const char *url_tmp = VRT_r_req_url( sp );
+                fprintf(stderr, "(%s) Got an error on the backend (%li)\n", 
+                        url_tmp, mab );
+                VRT_done( sp, VCL_RET_ERROR);
+            }   
+        }C  
+    }
 
-# Diagram showing routing of requests #
+!SLIDE center
+## GET request ##
+![get-flow/get-flow.png](get-flow/get-flow.png)
+
+!SLIDE center
+![get-flow/get-flow.png](get-flow/get-flow.png)
 
 !SLIDE smaller commandline incremental
     $ tyrantmanager replication-status
