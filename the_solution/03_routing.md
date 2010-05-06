@@ -77,11 +77,12 @@
 
 !SLIDE command
 
+# $ tyrantmanager replication-status # 
+
+!SLIDE command
+
 # $ man 1 varnishhist #
 
 !SLIDE command
 
 # $ man 1 varnishstat #
-
-
-
