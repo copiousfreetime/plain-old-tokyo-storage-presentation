@@ -1,11 +1,12 @@
 !SLIDE bullets incremental transition=toss
 
-# Tokyo Stand Up #
+# Tokyo Hands Up #
 
-* Who has heard of them
-* Who has tried them
-* Who has used them in anger
-* Who uses them in production today
+* Drop your hands if you have never:
+
+* heard of it (before this talk)
+* tried it
+* used it in production
 
 !SLIDE bullets increment
 
@@ -36,26 +37,20 @@
 
 ## Network accessible Tokyo Cabinet database ##
 
-* RESTful protocol
-* Memcache protocol
 * Tokyo Tyrant protocol
+* Memcache protocol
+* RESTful protocol
 
 !SLIDE incremental 
 
-# [Tokyo Dystopia](http://1978th.net/tokyodystopia/)#
+# Lesser Known #
 
-## A full-text search system ##
-
-!SLIDE
-
-# [Tokyo Promenade](http://1978th.net/tokyopromenade/) #
-
-## A content management system ##
+* [Tokyo Dystopia](http://1978th.net/tokyodystopia/) -  A full-text search system 
+* [Tokyo Promenade](http://1978th.net/tokyopromenade/) - A content management system 
 
 !SLIDE
 
 # The Future #
 
 ## [Kyoto Cabinet](http://1978th.net/kyotocabinet/) ##
-
 

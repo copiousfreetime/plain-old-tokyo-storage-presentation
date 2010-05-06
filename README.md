@@ -19,7 +19,6 @@ Then you shold be able to go to [http://localhost:9090][] to view the presentati
 
 TODO
 ----
-- Cut out some tokyo cabinet stuff
 - reiterate the contact information
 - comparisons of FS vs TC in $$ and #'s 
 - S3 cost vs local storage

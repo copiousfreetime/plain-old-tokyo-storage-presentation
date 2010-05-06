@@ -2,29 +2,29 @@
 
 # Part 1 - Message Storage System #
 
-* must store 1 billion messages
+* must store 1 billion messages (per year)
 * efficient use of disk space
 * accessible via a "key"
-* assessible via HTTP
+* must use HTTP
 * easy backup strategy
 
 !SLIDE incremental bullets
 
 # Tokyo Tyrant #
 
-* Network accessible Key Value Store
-* Has a RESTful interface
-* built in replication 
+* Network accessible Key-Value store
 * single file DB
 * values can be compressed
+* Has a RESTful interface
+* built in replication 
 
 !SLIDE incremental bullets
 
 # How we use Tyrants #
 
-* cluster them (~250M keys / tyrant)
+* cluster them (~250M keys / tyrant, bnum=1000000000)
 * global keyspace (across all tyrants)
-* partition keys to individual tyrants
-* 'putkeep' storage
-* compressed values
+* partitioned keyspace ( somewhat like consistent hashing )
+* write once rule ( 'putkeep' mode )
+* compressed values ( opts=ld )
 

@@ -21,8 +21,8 @@
 # Generation 1 #
 
 * one message per file
-* message is xml
-* nested directories
+* file is xml
+* files are nested in directories
 * served via load balanced lighttpd
 * load balanced squid cache in front
 
@@ -31,18 +31,19 @@
 # Generation 2 #
 
 * one message per file
-* message is xml
-* nested directories
-* served via load balanced nginx
+* file is xml
+* file are nested in directories
+* served via partitioned and load balanced nginx
+* routed with HAproxy 
 
 !SLIDE incremental bullets
 
 # Why this does not work #
 
-* Each file is used for ~1 day
+* Each file is used for ~1 day (access ~10 times)
 * then rarely used again (keep around for archive)
-* wasted space, lots of small files 
-* directories with 100k to 1M files
-* message volume increases faster than capcity
-
+* directories with 100K to 1M files
+* wasted space, 4KiB disk block, 2KiB files
+* message volume increases faster than capacity
+* write to 2 locations (for backup)
 
