@@ -23,8 +23,17 @@
 # How we use Tyrants #
 
 * cluster them (~250M keys / tyrant, bnum=1000000000)
+* compressed values ( opts=ld )
+* write once rule ( 'putkeep' mode )
 * global keyspace (across all tyrants)
 * partitioned keyspace ( somewhat like consistent hashing )
-* write once rule ( 'putkeep' mode )
-* compressed values ( opts=ld )
 
+!SLIDE center
+# 2x Physical Server #
+![tt-slice/tt-slice.png](tt-slice/tt-slice.png)
+
+!SLIDE incremental bullets
+# How do you manage all those tyrants? #
+
+* gem install tyrantmanager
+* <http://github.com/copiousfreetime/tyrantmanager>
